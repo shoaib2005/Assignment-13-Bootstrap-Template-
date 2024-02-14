@@ -1,0 +1,37 @@
+nav{
+    margin: auto;
+    padding: 100%;
+}
+h3{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+/* div .list h6{
+    padding-left: 50%;
+} */
+div ul .str{
+    list-style: none;
+}
+div .img1 img2 img3{
+    padding-bottom: 10px;
+    
+}
+@media screen and (max-width: 426px){
+    div .navbar{
+        display: none;
+    }
+    div .img{
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 769px){
+    div .navbar{
+        display: none
+    }
+    div .img{
+        display: flex;
+        align-items: center;
+    }
+}
